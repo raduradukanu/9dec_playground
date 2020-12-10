@@ -1,0 +1,186 @@
+/* Utilities */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card{
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 10px;
+}
+
+.docs-main .card .btn{
+  color: #fff;
+
+}
+
+/* Code,pre */
+
+code,
+pre{
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Alert */
+
+.alert{
+  background-color: #5cb85c;
+  padding: 10px 20px;
+  font-weight: 400;
+  margin: 15px 0;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+.alert i{
+  padding-right: 10px;
+}
+
+/* Text Sizes */
+
+.lead{
+    font-size: 1.1em;
+}
+
+.sm{
+    font-size: 1em;
+}
+.md{
+    font-size: 2em;
+}
+.lg{
+    font-size: 3em;
+}
+.xl{
+    font-size: 4em;
+}
+/* Backgrounds & Color Buttons */
+
+.bg-primary, .btn-primary{
+    background-color: var(--primary);
+    color: #fff;
+}
+.bg-secondary, .btn-primary{
+    background-color: var(--secondary);
+    color: #fff;
+}
+.bg-dark, .btn-dark{
+    background-color: var(--dark);
+    color: #fff;
+}
+.bg-light, .btn-light{
+    background-color: var(--light);
+    color: #333;
+}
+
+.btn{
+    display: inline-block;
+
+    cursor: pointer;
+    background: var(--primary);
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+    transition: transform 500ms ease;
+}
+.btn:hover{
+    transform: scale(0.98);
+}
+.btn-outline{
+    background-color: transparent;
+    color: #fff;
+    border: 1px #fff solid;
+    padding: 5px 20px;
+}
+.btn-primary{
+    padding: 10px 30px;
+}
+
+/* Margin */
+.my-1{
+    margin: 1rem 0;
+  }
+  .my-2{
+    margin: 2rem 0;
+  }
+  .my-3{
+    margin: 2rem 0;
+  }
+  .my-4{
+    margin: 3rem 0;
+  }
+  .my-5{
+    margin: 4rem 0;
+  }
+.m-1{
+    margin: 1rem;
+  }
+  .m-2{
+    margin: 1.5rem;
+  }
+  .m-3{
+    margin: 2rem;
+  }
+  .m-4{
+    margin: 3rem;
+  }
+  .m-5{
+    margin: 4rem;
+  }
+.p-1{
+    padding: 1rem;
+  }
+.p-2{
+    padding: 1.5rem;
+  }
+.p-3{
+    padding: 2rem;
+  }
+.p-4{
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+
+  }
+.p-5{
+    padding: 4rem;
+  }
+.py-1{
+    padding: 1rem 0;
+  }
+.py-2{
+    padding: 1.5rem 0;
+  }
+.py-3{
+    padding: 2rem 0;
+  }
+.py-4{
+    padding: 3rem 0;
+  }
+.py-5{
+    padding: 4rem 0;
+  }
